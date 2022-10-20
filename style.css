@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;700&display=swap');
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: #E0E8FF;
+    object-fit: contain;
+    justify-content: center;
+    display: flex;
+    font-family: 'Red Hat Display', serif;
+}
+
+.Card{
+    background-color: white;
+    width: 450px;
+    margin-top: 102px;
+    border-radius: 20px;
+    justify-content: center;
+    display: block;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+    display: inherit;
+}
+
+.text-container{
+    padding: 45px;
+    align-items: center;
+    justify-content: center;
+    width: 354px;
+}
+
+.Subscription-modal{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #F7F9FF;
+    padding: 24px 25px;
+    margin: 0;
+    border-radius: 11px;
+}
+
+.Subscription{
+    display: block;
+    margin-left: 20px;
+    margin-right: 68px;
+}
+
+.Subscription-Annual{
+    margin: 0%;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #1F2E55;
+}
+
+.Subscription-Price{
+    margin: 0;
+    color: #717FA6;
+}
+
+.change-sub{
+    color: #382AE1;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0px;
+}
+.change-sub:hover{
+    color: #766CF1;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0%;
+    color:#1F2E55;
+}
+
+p{
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+}
+
+.paragraph{
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    color:#717FA6;
+}
+
+button{
+    margin: 32px 0px;
+    font-family: 'Red Hat Display';
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 102px;
+    color: white;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    border: none;
+    justify-content: center;
+}
+button:hover{
+    background-color: #766CF1;
+}
+
+.last-text{
+    text-align: center;
+    margin: 0;
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 700;
+}
+.last-text:hover{
+    color: #1F2E55;
+}
+
+@media screen and (max-width: 375px) {
+    .Card{
+        background-color: white;
+        width: 327px;
+        margin-top: 71px;
+        border-radius: 20px;
+        justify-content: center;
+        display: block;
+        box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    }
+    img{
+        border-radius: 10px 10px 0px 0px;
+        width: 327px;
+        display: inherit;
+    }
+    .text-container{
+        width: 279px;
+        padding: 32px 24px;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Red Hat Display';
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0%;
+        color:#1F2E55;
+    }
+    .paragraph{
+        text-align: center;
+        margin-top: 17px;
+        margin-bottom: 24px;
+        color:#717FA6;
+    }
+    
+    .Subscription-modal{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: #F7F9FF;
+        padding: 16px;
+        margin: 0;
+        border-radius: 11px;
+    }
+    .Subscription{
+        display: block;
+        margin-left: 20px;
+        margin-right: 42px;
+    }
+    .Subscription-Annual{
+        margin: 0%;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: #1F2E55
+        ;
+    }
+    
+    .Subscription-Price{
+        margin: 0;
+        font-size: 14px;
+        color: #717FA6;
+    }
+    button{
+        margin: 24px 0px;
+        font-family: 'Red Hat Display';
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 64px;
+        color: white;
+        background-color: #382AE1;
+        box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+        border-radius: 11px;
+        border: none;
+        justify-content: center;
+        display: flex;
+    }
+    
+}
